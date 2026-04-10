@@ -21,7 +21,7 @@ const Employee = sequelize.define('Employee', {
   },
   joiningDate:{
     type:DataTypes.DATE,
-    allowNull: true
+    allowNull: false
   },
   status: {
     type: DataTypes.STRING,
