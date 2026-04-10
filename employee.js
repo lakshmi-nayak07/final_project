@@ -26,7 +26,12 @@ const Employee = sequelize.define('Employee', {
   status: {
     type: DataTypes.STRING,
     defaultValue: 'Active'
-  }
+  },
+  status2: {
+    type: DataTypes.STRING,
+    defaultValue: 'Active'
+  },
+
 });
 
 module.exports = Employee;
